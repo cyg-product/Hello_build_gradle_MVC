@@ -37,6 +37,8 @@ views 파일 index jsp를 WEB-INF에 추가한다
     </servlet-mapping>
 </web-app>
 </code></pre>
+
+
 <pre><code>
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
