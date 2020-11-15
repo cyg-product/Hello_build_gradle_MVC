@@ -13,7 +13,7 @@ views 파일 index jsp를 WEB-INF에 추가한다
 서블릿은 딱히 수정하지 않아도 되는데
 
 프로젝트 스트럭쳐에서 따블클릭해서 다 추가한다 
-
+<pre><code>
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -36,7 +36,8 @@ views 파일 index jsp를 WEB-INF에 추가한다
         <url-pattern>*.form</url-pattern>
     </servlet-mapping>
 </web-app>
-
+</code></pre>
+<pre><code>
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -61,3 +62,4 @@ views 파일 index jsp를 WEB-INF에 추가한다
         <property name="suffix" value=".jsp"/>
     </bean>
 </beans>
+</code></pre>
